@@ -35,7 +35,7 @@ body:
     attributes:
       label: ID раунда и время
       description: Когда это произошло?
-      placeholder: ID: 1820, 13:37
+      placeholder: "ID: 1820, 13:37"
     validations:
       required: true
   - type: textarea
