@@ -11,7 +11,7 @@ body:
     id: contact
     attributes:
       label: Укажите ваш сикей
-      placeholder: JackTrasen228
+      placeholder: "JackTrasen228"
     validations:
       required: true
   - type: textarea
@@ -19,7 +19,7 @@ body:
     attributes:
       label: Что произошло?
       description: Подробно опишите, какая неисправность произошла и особенно то, как её воспроизвести.
-      placeholder: Сюда можно писать!
+      placeholder: "Сюда можно писать!"
       value: "Сюда можно писать!"
     validations:
       required: true
@@ -27,7 +27,7 @@ body:
     id: version
     attributes:
       label: Версия Byond
-      placeholder: 516.XXXX
+      placeholder: "516.XXXX"
     validations:
       required: true
   - type: input
