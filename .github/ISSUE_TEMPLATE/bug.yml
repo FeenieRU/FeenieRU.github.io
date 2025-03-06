@@ -1,5 +1,5 @@
 name: Отчёт о баге
-description: File a bug report.
+description: Сообщите о баге
 title: "[Баг]: "
 labels: ["bug"]
 body:
