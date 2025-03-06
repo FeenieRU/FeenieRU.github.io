@@ -30,16 +30,14 @@ body:
       placeholder: 516.XXXX
     validations:
       required: true
-  - type: dropdown
-    id: browsers
+  - type: input
+    id: roundid
     attributes:
-      label: What browsers are you seeing the problem on?
-      multiple: true
-      options:
-        - Firefox
-        - Chrome
-        - Safari
-        - Microsoft Edge
+      label: ID раунда и время
+      description: Когда это произошло?
+      placeholder: ID: 1820, 13:37
+    validations:
+      required: true
   - type: textarea
     id: logs
     attributes:
